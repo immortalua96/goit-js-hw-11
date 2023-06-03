@@ -1,28 +1,44 @@
-.example {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #2f2f37;
-  max-width: 960px;
-  padding: 16px;
+.search-form {
+  text-align: center;
+  font-size: 24px;
 }
-
-.example code {
-  font-family: monospace;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: #ff6b0a;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 2px;
+.section-form {
+  background-color: rgba(60, 0, 255, 0.852);
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-
-.example .background {
-  height: 240px;
-  // ❗️❗️❗️ The path to images from a SASS file
-  // is always the same as from the css folder.
-  background-image: url('../images/logo.png');
-  background-size: cover;
-  background-position: center;
+.gallery {
+  margin: 0 auto;
+  max-width: 1280px;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.info {
+  width: 350px;
+  border-bottom: 1px solid #c3c2c2;
+  border-left: 1px solid #c3c2c2;
+  border-right: 1px solid #c3c2c2;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  display: flex;
+  padding-left: 10px;
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08),
+    0 2px 2px rgba(0, 0, 0, 0.12);
+}
+.photo {
+  width: 350px;
+  height: 250px;
+  display: block;
+}
+.btnLoadMore {
+  margin: 20px auto;
+  text-align: center;
+  color: blue;
 }
