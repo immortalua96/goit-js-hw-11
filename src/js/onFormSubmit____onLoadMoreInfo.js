@@ -18,7 +18,9 @@ export async function onFormSubmit(evt) {
 
     if (value !== '') {
       const response = await fetchImages(value, pageNr);
-      if (response.length === 0) {
+
+      if (response.total === 0) {
+        console.log(response);
         Notiflix.Notify.failure(
           'Sorry, there are no images matching your search query. Please try again.'
         );
