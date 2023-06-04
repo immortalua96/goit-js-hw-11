@@ -23,5 +23,5 @@ export function renderImageList(images) {
     </div>`;
     })
     .join('');
-  refs.listInfo.innerHTML += markup;
+  refs.listInfo.insertAdjacentHTML('beforeend', markup);
 }
