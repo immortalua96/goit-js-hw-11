@@ -55,7 +55,6 @@ export async function onLoadMoreInfo(evt) {
     gallerySimpleLightbox.refresh();
 
     if (response.totalHits / 40 < pageNr) {
-      console.log(response.totalHits - 40);
       refs.btnLoadMore.style.display = 'none';
       Notiflix.Notify.info(
         "We're sorry, but you've reached the end of search results."
